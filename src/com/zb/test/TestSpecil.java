@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class TestSpecil {
-    public static  void main(String[] args){    
+    public static  void main(String[] args){ 
         SqlSession sqlSession = MybatisUtils.getSqlSession(false);
         int pageNum=1;
         int pageSize=5;
